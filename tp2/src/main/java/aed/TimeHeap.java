@@ -3,7 +3,7 @@ package aed;
 public class TimeHeap{                              // Vamos a usar un Min-Heap para que deseconlarMin devuelva el traslado mas antiguo
                                                     // Utilizamos la operacion desencolarPorIndice para desencolar en O(log n)
     private ArregloRedimensionableDeTraslado heap;  // apovechando que nuestra estructura interna es un ArregloRedimensionable e indexar
-                                                    // e indezar cuesta O(1)
+                                                    // e indexar cuesta O(1)
     public TimeHeap(){
         this.heap  = new ArregloRedimensionableDeTraslado();
     }
